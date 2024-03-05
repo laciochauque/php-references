@@ -1,0 +1,24 @@
+{
+    "name":"laciochauque/php-references",
+    "description":"Simpl package is responsible for generating valid references for payments via bank entity and reference for Millennium bim.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Lácio Lourenço Chaúque",
+            "email": "laciochauque7@gmail.com",
+            "role": "programmer",
+            "homepage": "https://laciochauque.blogspot.com"
+        }
+    ],
+    "keywords": [ "Millennium BIM", "Geração de Referências","Lácio", "laciochauque","Mozambique"],
+    "version": "1.0",
+    "autoload": {
+        "psr-4": {
+            "Laciochauque\\PHPReferences\\":"src/"
+        }
+    },
+    "require": {
+        "php":">=8.0"
+    }
+}
