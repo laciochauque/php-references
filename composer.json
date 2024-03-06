@@ -1,8 +1,8 @@
 {
     "name":"laciochauque/php-references",
-    "description":"Simpl package is responsible for generating valid references for payments via bank entity and reference for Millennium bim.",
+    "description":"Uma biblioteca simplificada em php para gerar referências de pagamento de serviços. Essa biblioteca gera uma referência com um dígito verificador válido para algorítmos dos bancos Moçambicanos. Agradeço desde já apreciação e colaboração ou patrocínio.",
     "type": "library",
-    "license": "GPL-3.0-or-later",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Lácio Lourenço Chaúque",
@@ -11,7 +11,7 @@
             "homepage": "https://laciochauque.blogspot.com"
         }
     ],
-    "keywords": [ "Millennium BIM", "Geração de Referências","Lácio", "laciochauque","Mozambique"],
+    "keywords": [ "Pagamento de Serviços", "Entidade e Referências","PHP em Moçambique","laciochauque","Mozambique"],
     "version": "1.0",
     "autoload": {
         "psr-4": {
