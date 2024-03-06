@@ -36,3 +36,6 @@ $reference = \Laciochauque\PHPReferences\Reference::generate(
 );
 echo $reference."\n"; 
 //output: 76543211279
+
+$reference = \Laciochauque\PHPReferences\Reference::generate("54321",100);
+echo $reference->reference; //SAIDA:76543211279 
